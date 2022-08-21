@@ -8,6 +8,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .heading-color {
     color: orange;
 }
@@ -16,7 +20,8 @@ h1 {
 /* two container under the section tag */
 /* using this tag div1 and div2 ud-down to change alongside */
 /*section is parent and container one and two is child */
-section {
+/*This class use in two section*/
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -24,6 +29,7 @@ section {
 .half-width {
     width: 50%;
     padding: 5%;
+
 }
 
 .half-width img {
@@ -57,4 +63,27 @@ section {
     background-repeat: no-repeat;
     background-position: right;
     /*background-position:sets the starting position of a background image;*/
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#full-stack {
+    border-left: 7px solid tomato;
+}
+
+#baby-web {
+    border-left: 7px solid blue;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
