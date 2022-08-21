@@ -1,0 +1,49 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+/* first part*/
+h1 {
+    font-size: 50px;
+}
+
+.heading-color {
+    color: orange;
+}
+
+/* sets the flexible length on flexible items */
+/* two container under the section tag */
+/* using this tag div1 and div2 ud-down to change alongside */
+/*section is parent and container one and two is child */
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    /*to remove under_line*/
+    background-image: linear-gradient(orange, tomato);
+    /* when using gradient color, then use background-image */
+    padding: 10px 40px;
+    /* 10px up_down 40px side_by_side */
+    border-radius: 5px;
+    color: white;
+    /*text color*/
+    font-weight: 700;
+    /*The font-weight CSS property sets the weight (or boldness) of the font.*/
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
