@@ -18,6 +18,7 @@ h1 {
 /*section is parent and container one and two is child */
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -44,6 +45,16 @@ section {
 }
 
 .top-banner {
+    /* using background image*/
     background-image: url(images/top-banner.png);
+    /*stop background img repeat*/
     background-repeat: no-repeat;
+}
+
+/* section two */
+.dream-area {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    /*background-position:sets the starting position of a background image;*/
 }
